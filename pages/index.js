@@ -8,7 +8,7 @@ import {
 import Image from "next/image";
 import devabi from "./images/face.png";
 import code from "./images/code.png"
-import design from "./images/code.png"
+import design from "./images/design.png"
 import consulting from "./images/consulting.png"
 import web1 from "./images/web1.png"
 import web2 from "./images/web2.png"
@@ -94,7 +94,7 @@ const [ darkMode , setdarkMode] = useState(true)
 <div className="lg:flex gap-10">
           <div className="shadow-lg my-8 text-center py-8 flex-1 dark:bg-white rounded-xl">
            
-              
+          <Image src={design} className="mx-auto"/>
           
             <h3 className="text-lg font-medium pt-6 pb-2">Design</h3>
             <p className="text-gray-400 font-medium py-2">
